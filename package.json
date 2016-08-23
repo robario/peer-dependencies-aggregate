@@ -11,8 +11,15 @@
   },
   "license": "ISC",
   "author": "robario <webmaster@robario.com> (https://robario.com)",
+  "bin": {
+    "peer-dependencies-resolve": "bin/cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/robario/peer-dependencies-resolve.git"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "semver-resolve": "^1.0.0"
   }
 }
