@@ -1,0 +1,25 @@
+{
+  "name": "peer-dependencies-resolve",
+  "version": "0.0.0",
+  "description": "The peerDependencies resolver.",
+  "keywords": [
+    "semver"
+  ],
+  "homepage": "https://github.com/robario/peer-dependencies-resolve/",
+  "bugs": {
+    "url": "https://github.com/robario/peer-dependencies-resolve/issues"
+  },
+  "license": "ISC",
+  "author": "robario <webmaster@robario.com> (https://robario.com)",
+  "bin": {
+    "peer-dependencies-resolve": "bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robario/peer-dependencies-resolve.git"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "semver-resolve": "^1.0.0"
+  }
+}
